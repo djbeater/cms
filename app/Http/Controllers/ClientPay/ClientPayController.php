@@ -15,7 +15,9 @@ class ClientPayController extends Controller
      */
     public function index()
     {
-        exit('Client Pays');
+        //exit('Client Pays');
+
+        return view('clientpay/clientpay');
     }
 
     /**
